@@ -209,20 +209,6 @@ Access det,led statistics including:
 - Persistent across sessions
 
 ## 🔧 Technical Det,ls
-
-### Minimax Algorithm
-
-The , uses the minimax algorithm with depth-based optimization:
-
-```python
-def minimax(board, depth, isMaximizing):
-    if terminal_state:
-        return evaluate_score(depth)
-    
-    if isMaximizing:
-        return max(all_possible_moves)
-    else:
-        return min(all_possible_moves)
 ```
 
 **Key Features:**
